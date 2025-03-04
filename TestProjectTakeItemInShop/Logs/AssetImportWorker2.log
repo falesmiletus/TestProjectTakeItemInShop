@@ -15,7 +15,7 @@ C:/GitHub/Unity/TestProjectTakeItemInShop/TestProjectTakeItemInShop
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57064
+61818
 Successfully changed project path to: C:/GitHub/Unity/TestProjectTakeItemInShop/TestProjectTakeItemInShop
 C:/GitHub/Unity/TestProjectTakeItemInShop/TestProjectTakeItemInShop
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/GitHub/Unity/TestProjectTakeItemInShop/TestProjectTakeItemInShop
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10716]  Target information:
+Player connection [8680]  Target information:
 
-Player connection [10716]  * "[IP] 192.168.1.214 [Port] 0 [Flags] 2 [Guid] 3196061347 [EditorId] 3196061347 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP2KL5N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8680]  * "[IP] 192.168.1.214 [Port] 0 [Flags] 2 [Guid] 1537018421 [EditorId] 1537018421 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP2KL5N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10716] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10716] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8680] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8680] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 22.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Resources/UnitySubsystems
@@ -72,7 +72,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -82,8 +82,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.040208 seconds.
-- Loaded All Assemblies, in  0.731 seconds
+Registered in 0.035519 seconds.
+- Loaded All Assemblies, in  0.569 seconds
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -91,40 +91,40 @@ Native extension for WindowsStandalone target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 464 ms
+Android Extension - Scanning For ADB Devices 375 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.082 seconds
-Domain Reload Profiling: 1811ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  0.882 seconds
+Domain Reload Profiling: 1448ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (134ms)
-	LoadAllAssembliesAndSetupDomain (298ms)
-		LoadAssemblies (205ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (160ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (292ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (270ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (200ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1083ms)
+	FinalizeReload (883ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (991ms)
+		SetupLoadedEditorAssemblies (801ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (688ms)
+			InitializePlatformSupportModulesInManaged (565ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (206ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -132,8 +132,8 @@ Domain Reload Profiling: 1811ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.061 seconds
-Refreshing native plugins compatible for Editor in 7.11 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -142,66 +142,518 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1933ms
-	BeginReloadAssembly (214ms)
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (231ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (705ms)
-		LoadAssemblies (534ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (505ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (302ms)
-			TypeCache.Refresh (266ms)
-				TypeCache.ScanAssembly (237ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (879ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (203ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (839ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (633ms)
+		SetupLoadedEditorAssemblies (628ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (75ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (422ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (413ms)
 			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 8.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (57.7 KB). Loaded Objects now: 3620.
-Memory consumption went from 126.1 MB to 126.1 MB.
-Total: 3.908900 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.093100 ms MarkObjects: 3.333000 ms  DeleteObjects: 0.137500 ms)
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (58.0 KB). Loaded Objects now: 3621.
+Memory consumption went from 126.6 MB to 126.6 MB.
+Total: 7.166000 ms (FindLiveObjects: 0.867500 ms CreateObjectMapping: 0.356000 ms MarkObjects: 5.706800 ms  DeleteObjects: 0.233100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106836.085705 seconds.
+  path: Assets/Model/86aj2lmmwr5s-eb_metal_shelf_01/eb_metal_shelf_01/eb_metal_shelf_01_c.tga
+  artifactKey: Guid(21ab8aa433a24044db49d9e0859db2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/86aj2lmmwr5s-eb_metal_shelf_01/eb_metal_shelf_01/eb_metal_shelf_01_c.tga using Guid(21ab8aa433a24044db49d9e0859db2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '29abe69545e13d401bd493f61f215b26') in 0.185735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 52.302424 seconds.
+  path: Assets/Model/86aj2lmmwr5s-eb_metal_shelf_01/eb_metal_shelf_01/New Material.mat
+  artifactKey: Guid(2b70b8ddcdb246741b1535b51dda1db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/86aj2lmmwr5s-eb_metal_shelf_01/eb_metal_shelf_01/New Material.mat using Guid(2b70b8ddcdb246741b1535b51dda1db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f279e3d6e8dcf14b66cfc7846ec29e9') in 0.069469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 229.580444 seconds.
+  path: Assets/Scripts/PlayerInteraction.cs
+  artifactKey: Guid(6bff41ad95806bd42b1593845e2af33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInteraction.cs using Guid(6bff41ad95806bd42b1593845e2af33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9fb489181695d2768117b3832e46fe07') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 6.32 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.276 seconds
+Domain Reload Profiling: 2013ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1277ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3142 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3667.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 3.486500 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.977000 ms  DeleteObjects: 0.072500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.293020 seconds.
+  path: Assets/Scripts/PlayerInteraction.cs
+  artifactKey: Guid(6bff41ad95806bd42b1593845e2af33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInteraction.cs using Guid(6bff41ad95806bd42b1593845e2af33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ba03a287dbdffbd1bedcd60f3d4257b4') in 0.002771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 137.181722 seconds.
+  path: Assets/Scripts/PickupItem.cs
+  artifactKey: Guid(6b7c39542b78f0542b9c487c85da6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickupItem.cs using Guid(6b7c39542b78f0542b9c487c85da6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5518553b0596e68bfe77ac3118858de3') in 0.000861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.229197 seconds.
+  path: Assets/Scripts/PickupItem.cs
+  artifactKey: Guid(6b7c39542b78f0542b9c487c85da6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickupItem.cs using Guid(6b7c39542b78f0542b9c487c85da6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c677636bbfbee24cfbc9ee941a20eb61') in 0.000796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.252 seconds
+Domain Reload Profiling: 1910ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3671.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 3.583700 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.096400 ms MarkObjects: 3.047600 ms  DeleteObjects: 0.060700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.814969 seconds.
+  path: Assets/Scripts/PickupItem.cs
+  artifactKey: Guid(6b7c39542b78f0542b9c487c85da6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickupItem.cs using Guid(6b7c39542b78f0542b9c487c85da6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0cb3273d228900e9dc0cae10ad8d4254') in 0.002863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 410.417735 seconds.
+  path: Assets/Model/10200_Pineapple_v1-L2.obj
+  artifactKey: Guid(819293315a7b61a42a4b711e600f8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/10200_Pineapple_v1-L2.obj using Guid(819293315a7b61a42a4b711e600f8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d7fb6061ba5613eff696a620de2a855') in 0.202744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.078336 seconds.
+  path: Assets/Model/10200_Pineapple.jpg
+  artifactKey: Guid(4b8aefd3a72634e4691f5843e881c416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/10200_Pineapple.jpg using Guid(4b8aefd3a72634e4691f5843e881c416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '01c4886d60593e3093c461f7bf4903dd') in 0.031919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 177.653443 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(1e3c811abecf7e545bd4515678097ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(1e3c811abecf7e545bd4515678097ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75fd325d06714b029e4c541c42ee2610') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.169092 seconds.
+  path: Assets/Prefabs/stub.file
+  artifactKey: Guid(9019a39b20974ee479f7cf1f7ceae6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/stub.file using Guid(9019a39b20974ee479f7cf1f7ceae6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ed4c717e7be2bc8f97373ec50c9db12') in 0.001128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.826421 seconds.
+  path: Assets/Prefabs/10200_Pineapple_v1-L2.prefab
+  artifactKey: Guid(767e6775bad3b3c4c860f16a7dcd6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/10200_Pineapple_v1-L2.prefab using Guid(767e6775bad3b3c4c860f16a7dcd6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cf1f55e46896c170932c3ac6479a1214') in 0.040181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.430 seconds
+Domain Reload Profiling: 2249ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (565ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3677.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 3.365000 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.898300 ms  DeleteObjects: 0.052500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 383.046640 seconds.
+  path: Assets/Scripts/PlayerInteraction.cs
+  artifactKey: Guid(6bff41ad95806bd42b1593845e2af33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInteraction.cs using Guid(6bff41ad95806bd42b1593845e2af33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8be52752d74af5e7a53b842e90716ec4') in 0.002536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.296 seconds
+Domain Reload Profiling: 1947ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (443ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1296ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3680.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 4.017400 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.097200 ms MarkObjects: 3.518300 ms  DeleteObjects: 0.066300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.760 seconds
-Refreshing native plugins compatible for Editor in 6.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -210,61 +662,1541 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.408 seconds
-Domain Reload Profiling: 2162ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  1.295 seconds
+Domain Reload Profiling: 1931ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (408ms)
-		LoadAssemblies (512ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (426ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1408ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (667ms)
+		SetupLoadedEditorAssemblies (589ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (75ms)
+			InitializePlatformSupportModulesInManaged (79ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (31.6 KB). Loaded Objects now: 3623.
-Memory consumption went from 124.4 MB to 124.4 MB.
-Total: 3.896800 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.101000 ms MarkObjects: 3.309400 ms  DeleteObjects: 0.063000 ms)
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3683.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.952900 ms (FindLiveObjects: 0.438300 ms CreateObjectMapping: 0.108200 ms MarkObjects: 3.328900 ms  DeleteObjects: 0.075600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.733 seconds
+Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.346 seconds
+Domain Reload Profiling: 2072ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (495ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1347ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3686.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.464000 ms (FindLiveObjects: 0.402200 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.891200 ms  DeleteObjects: 0.061800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.227 seconds
+Domain Reload Profiling: 1905ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (452ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3689.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.365800 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.094500 ms MarkObjects: 2.885000 ms  DeleteObjects: 0.056000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 5.95 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.283 seconds
+Domain Reload Profiling: 1923ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (440ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.6 KB). Loaded Objects now: 3692.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.801100 ms (FindLiveObjects: 0.421200 ms CreateObjectMapping: 0.103600 ms MarkObjects: 3.210900 ms  DeleteObjects: 0.063800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.640 seconds
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.292 seconds
+Domain Reload Profiling: 1924ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1293ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3695.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.366700 ms (FindLiveObjects: 0.369800 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.841800 ms  DeleteObjects: 0.056700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.713 seconds
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.280 seconds
+Domain Reload Profiling: 1987ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (79ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3698.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.087300 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.641400 ms  DeleteObjects: 0.049800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.307 seconds
+Domain Reload Profiling: 1977ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (464ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.6 KB). Loaded Objects now: 3701.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.800300 ms (FindLiveObjects: 0.433100 ms CreateObjectMapping: 0.103700 ms MarkObjects: 3.201600 ms  DeleteObjects: 0.060600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.267 seconds
+Domain Reload Profiling: 1939ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.6 KB). Loaded Objects now: 3704.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.365100 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.888500 ms  DeleteObjects: 0.050900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.300 seconds
+Domain Reload Profiling: 1947ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3707.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 4.211200 ms (FindLiveObjects: 0.391700 ms CreateObjectMapping: 0.099900 ms MarkObjects: 3.615300 ms  DeleteObjects: 0.102500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 5.81 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.325 seconds
+Domain Reload Profiling: 2041ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.6 KB). Loaded Objects now: 3710.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.120100 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.673400 ms  DeleteObjects: 0.052200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.242 seconds
+Domain Reload Profiling: 1908ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (443ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (547ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3713.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.288500 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.816000 ms  DeleteObjects: 0.054700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 5.45 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.322 seconds
+Domain Reload Profiling: 1982ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3716.
+Memory consumption went from 125.1 MB to 125.1 MB.
+Total: 3.738000 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.093000 ms MarkObjects: 3.246900 ms  DeleteObjects: 0.064800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.797 seconds
+Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.548 seconds
+Domain Reload Profiling: 2340ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (558ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3719.
+Memory consumption went from 125.2 MB to 125.1 MB.
+Total: 4.632100 ms (FindLiveObjects: 0.645800 ms CreateObjectMapping: 0.109800 ms MarkObjects: 3.786500 ms  DeleteObjects: 0.087000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.705 seconds
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.364 seconds
+Domain Reload Profiling: 2064ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1365ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3722.
+Memory consumption went from 125.2 MB to 125.1 MB.
+Total: 4.758600 ms (FindLiveObjects: 0.609000 ms CreateObjectMapping: 0.108700 ms MarkObjects: 3.930800 ms  DeleteObjects: 0.106600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 6.18 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.376 seconds
+Domain Reload Profiling: 2050ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.7 KB). Loaded Objects now: 3725.
+Memory consumption went from 125.2 MB to 125.1 MB.
+Total: 5.170500 ms (FindLiveObjects: 0.452300 ms CreateObjectMapping: 0.105600 ms MarkObjects: 4.486700 ms  DeleteObjects: 0.123600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.420 seconds
+Domain Reload Profiling: 2179ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (502ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 3762.
+Memory consumption went from 129.8 MB to 129.1 MB.
+Total: 4.803400 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.145000 ms MarkObjects: 3.709300 ms  DeleteObjects: 0.559900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4723.512609 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(a0a72d949d049ca4092bd6404fa6be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(a0a72d949d049ca4092bd6404fa6be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1dd70366353fb903c16b894d5aad7969') in 0.003630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 194.424447 seconds.
+  path: Assets/Sprites/Tick-Click.png
+  artifactKey: Guid(f48f5d931c2bed74eb0dfd6e54128daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tick-Click.png using Guid(f48f5d931c2bed74eb0dfd6e54128daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ec299aa9eda3edea524e3c5bf476944') in 0.087444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.539145 seconds.
+  path: Assets/Sprites/Tick-Click.png
+  artifactKey: Guid(f48f5d931c2bed74eb0dfd6e54128daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tick-Click.png using Guid(f48f5d931c2bed74eb0dfd6e54128daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f67a71d414aa6978b14b74c2ac961a56') in 0.043341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 138.314034 seconds.
+  path: Assets/Sprites/Tick-Click.png
+  artifactKey: Guid(f48f5d931c2bed74eb0dfd6e54128daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tick-Click.png using Guid(f48f5d931c2bed74eb0dfd6e54128daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c825953af6c692317203da822c5b8f75') in 0.013179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.711 seconds
+Refreshing native plugins compatible for Editor in 6.16 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 2078ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (481ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3190 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 3768.
+Memory consumption went from 129.6 MB to 128.9 MB.
+Total: 4.911100 ms (FindLiveObjects: 0.508400 ms CreateObjectMapping: 0.170200 ms MarkObjects: 3.671400 ms  DeleteObjects: 0.559300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.717 seconds
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.333 seconds
+Domain Reload Profiling: 2045ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (465ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (0.7 MB). Loaded Objects now: 3771.
+Memory consumption went from 129.8 MB to 129.1 MB.
+Total: 5.108700 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.115000 ms MarkObjects: 3.979400 ms  DeleteObjects: 0.504400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JoystickEditor.cs: f882d7ef1315a1cbede6c953ddde74a4 -> 581d3f728d3a93a27efd539c8bddd3bc
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/JoystickPlayerExample.cs: 9a204c1a7c950028fdae3f47d9e5b0f0 -> d406ff8ce8864e204e8d63a49de11dc2
+  custom:scripting/monoscript/fileName/JoystickSetterExample.cs: eb13a7f6e5ea9f2adea5675822d005fd -> c49957a6a71c79984ebc2807a6438e16
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DynamicJoystickEditor.cs: d3754542138f42649e20e665bbadc974 -> 626b0522c3cb1eecc0e56c63f9fea348
+  custom:scripting/monoscript/fileName/DynamicJoystick.cs: 403a8b5cb22e30ee03d7159bfaef9293 -> 75b286b27813cfd85a69366876b9dec3
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystick.cs: 5582ab0eadea1e72e862d263f727fb05 -> b3276c8e36b524d2d1cc2e0d09c01499
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/VariableJoystickEditor.cs: 289b1f289edcce456d2d1f41e7b593b4 -> 104b23769326585003d7b4da04649e38
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FloatingJoystickEditor.cs: 6b97471851ccaf56711c88955a52a111 -> 3e494b4182af896c5aa9b7a42b6bb06d
+  custom:scripting/monoscript/fileName/VariableJoystick.cs: 51bb26201fe69ace0781f644ba341a65 -> f5aa1043f1fe72c53319c1d015b0e140
+  custom:scripting/monoscript/fileName/FixedJoystick.cs: dae221cdd11249bf21a690235ebaf427 -> 9873c9f7c69ede95d8e484fbb4de869a
+  custom:scripting/monoscript/fileName/Joystick.cs: 861d773737e57cae29a388abbd6a71fa -> aee9ec766d03814491fe13e2533860bb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 425.547981 seconds.
+  path: Assets/Premisul
+  artifactKey: Guid(8b864a71b044c9a4c8e447ec31960b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Premisul using Guid(8b864a71b044c9a4c8e447ec31960b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ae8a2b0f341b704e4ea94bc0f839f4c') in 0.005446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.662054 seconds.
+  path: Assets/Premisul/Low Poly Vehicals
+  artifactKey: Guid(c51ba45121a55d247b6cf347334893df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Premisul/Low Poly Vehicals using Guid(c51ba45121a55d247b6cf347334893df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cf6174086f80877d5d1a56331963f265') in 0.000684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.764473 seconds.
+  path: Assets/Plugins/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr
+  artifactKey: Guid(354036e57ae357148aed267204ce73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr using Guid(354036e57ae357148aed267204ce73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '160013e837d57a61497eb11b3114f7e5') in 0.911329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.298793 seconds.
+  path: Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1
+  artifactKey: Guid(a015e45ab25a29a46b21bcea00bced82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1 using Guid(a015e45ab25a29a46b21bcea00bced82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9466b786e69849f5d55a89d360368fa3') in 0.001391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.410162 seconds.
+  path: Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes
+  artifactKey: Guid(731ea98da24678d47bce91d0b292555a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes using Guid(731ea98da24678d47bce91d0b292555a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e42e9f333e9e7d3196d2ecf38ed5f1f0') in 0.000643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096816 seconds.
+  path: Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 a.prefab
+  artifactKey: Guid(166fda57e3734b84785fab2854ff0459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 a.prefab using Guid(166fda57e3734b84785fab2854ff0459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40b9d6aebf9f283de9f208456e7d98f5') in 0.075503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 c.prefab
+  artifactKey: Guid(dd188e8233796e746a7a8ca0dd5b79ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 c.prefab using Guid(dd188e8233796e746a7a8ca0dd5b79ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfe5a02bb1d7658e46e5b08b73507229') in 0.029772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 d.prefab
+  artifactKey: Guid(1a17bac871ea3d349ad04b94b9f0b8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 d.prefab using Guid(1a17bac871ea3d349ad04b94b9f0b8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86b8ff899eec068aa268bdc5503365ac') in 0.025607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 e.prefab
+  artifactKey: Guid(c75d3146ef5660e48a2a1d4c337274cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Premisul/Low Poly Vehicals/Mini Pickup Truck 1/Prefabes/Pickup_Truck_1 e.prefab using Guid(c75d3146ef5660e48a2a1d4c337274cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4af7e0e8697f595fb60240ae7a74fccb') in 0.024399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
